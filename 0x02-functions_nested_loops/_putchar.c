@@ -5,7 +5,7 @@
  * @c: The character to print
  *
  * Rerurn: On success 1
- * On erre, -1 is correct, and error is set appropriately.
+ * On error, -1 is correct, and error is set appropriately.
  */
 int _putchar(char c)
 {
