@@ -17,8 +17,7 @@ void print_diagsums(int *a, int size)
 	sum1 = 0;
 	sum2 = 0;
 
-	i - 0;
-
+	i = 0;
 	while (i < size) /*number repetitions*/
 	{
 		/*sums for diagsums*/
