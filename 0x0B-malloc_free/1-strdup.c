@@ -5,21 +5,23 @@
  * @s: array of elements
  * Return: 1
  */
-char _strlen(char *s)
+
+int _strlen(char *s)
 {
 unsigned int i;
 
 i = 0;
+
 while (s[i] != '\0') /*count character of string*/
 {
 i++;
 }
 
-return (1);
+return (i);
 }
 
 /**
- * strcpy - copy arrays
+ * _strcpy - copy arrays
  * @src: array of elements
  * @dest: dest array
  * Return: dest
